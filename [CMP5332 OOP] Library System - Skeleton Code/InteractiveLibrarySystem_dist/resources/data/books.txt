@@ -2,3 +2,7 @@
 23::Nineteen Eighty-Four::George Orwell::1949::
 42::The Hitchhiker's Guide to the Galaxy::Douglas Adams::1979::
 43::The War of The Worlds::H.G. Wells::1898::
+50::The Great Gatsby::F. Scott Fitzgerald::1925::
+51::Moby Dick::Herman Melville::1851::
+52::To Kill a Mockingbird::Harper Lee::1960::
+53::War and Peace::Leo Tolstoy::1869::
