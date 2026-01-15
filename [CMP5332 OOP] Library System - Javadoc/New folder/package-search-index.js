@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html","k":"18"},{"l":"bcu.Group_F6.librarysystem.commands"},{"l":"bcu.Group_F6.librarysystem.data"},{"l":"bcu.Group_F6.librarysystem.gui"},{"l":"bcu.Group_F6.librarysystem.main"},{"l":"bcu.Group_F6.librarysystem.model"},{"l":"bcu.Group_F6.librarysystem.test"}];updateSearchResults();

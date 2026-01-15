@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/[CMP5332 OOP] Library System - Skeleton Code/InteractiveLibrarySystem_dist/bin/production/src/bcu/Group_F6/librarysystem" />
-    <output-test url="file://$MODULE_DIR$/InteractiveLibrarySystem_dist/[CMP5332 OOP] Library System - Skeleton Code/bin/test/src/bcu/Group_F6/librarysystem" />
+    <output url="file://$MODULE_DIR$/[CMP5332 OOP] Library System - Skeleton Code/InteractiveLibrarySystem_dist/bin/production/src" />
+    <output-test url="file://$MODULE_DIR$/[CMP5332 OOP] Library System - Skeleton Code/InteractiveLibrarySystem_dist/bin/test/src" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/[CMP5332 OOP] Library System - Skeleton Code/InteractiveLibrarySystem_dist/src/bcu/Group_F6/librarysystem" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/[CMP5332 OOP] Library System - Skeleton Code/InteractiveLibrarySystem_dist/src/librarysystem" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/[CMP5332 OOP] Library System - Skeleton Code/InteractiveLibrarySystem_dist/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/[CMP5332 OOP] Library System - Skeleton Code/InteractiveLibrarySystem_dist/bin" />
     </content>
     <orderEntry type="inheritedJdk" />
