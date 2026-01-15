@@ -7,6 +7,8 @@ import bcu.Group_F6.librarysystem.commands.ShowBook;
 import bcu.Group_F6.librarysystem.commands.ShowPatron;
 import bcu.Group_F6.librarysystem.commands.DeleteBook;
 import bcu.Group_F6.librarysystem.commands.DeletePatron;
+import bcu.Group_F6.librarysystem.commands.RestoreBook;
+import bcu.Group_F6.librarysystem.commands.RestorePatron;
 import bcu.Group_F6.librarysystem.commands.AddBook;
 import bcu.Group_F6.librarysystem.commands.AddPatron;
 import bcu.Group_F6.librarysystem.commands.Command;
@@ -62,6 +64,14 @@ public class CommandParser {
                     return new ShowBook(id);
                 } else if (cmd.equals("showpatron")) {
                     return new ShowPatron(id);
+                } else if (cmd.equals("deletebook")) {
+                    return new DeleteBook(id);
+                } else if (cmd.equals("deletepatron")) {
+                    return new DeletePatron(id);
+                } else if (cmd.equals("restorebook")) {
+                    return new RestoreBook(id);
+                } else if (cmd.equals("restorepatron")) {
+                    return new RestorePatron(id);
                 }
             } else if (parts.length == 3) {
                 int patronID = Integer.parseInt(parts[1]);
