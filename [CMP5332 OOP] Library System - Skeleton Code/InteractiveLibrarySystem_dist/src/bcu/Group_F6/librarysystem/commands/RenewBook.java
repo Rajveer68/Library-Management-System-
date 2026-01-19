@@ -21,7 +21,11 @@ public class RenewBook implements Command {
         Patron patron = library.getPatronByID(patronId);
         Book book = library.getBookByID(bookId);
         LocalDate newDue = currentDate.plusDays(library.getLoanPeriod());
-        patron.renewBook(book, newDue);
+        
+        if (!patron.getBooks().contains(book) || !book.isOnLoan()) {
+            throw new LibraryException("Book is not on loan to this patron.");
+        }
+        book.setDueDate(newDue);
         System.out.println("Book #" + book.getId() + " renewed until " + newDue);
     }
 }

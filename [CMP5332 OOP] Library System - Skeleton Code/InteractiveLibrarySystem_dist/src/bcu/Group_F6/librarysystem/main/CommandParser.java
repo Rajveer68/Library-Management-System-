@@ -74,17 +74,17 @@ public class CommandParser {
                     return new RestorePatron(id);
                 }
             } else if (parts.length == 3) {
-                int patronID = Integer.parseInt(parts[1]);
-                int bookID = Integer.parseInt(parts[2]);
+                int id1 = Integer.parseInt(parts[1]);
+                int id2 = Integer.parseInt(parts[2]);
 
                 if (cmd.equals("borrow")) {
-                    return new bcu.Group_F6.librarysystem.commands.BorrowBook(patronID, bookID);
-                    
+                    return new bcu.Group_F6.librarysystem.commands.BorrowBook(id1, id2);
+
                 } else if (cmd.equals("renew")) {
-                    return new bcu.Group_F6.librarysystem.commands.RenewBook(patronID, bookID);
+                    return new bcu.Group_F6.librarysystem.commands.RenewBook(id2, id1);
 
                 } else if (cmd.equals("return")) {
-                    return new bcu.Group_F6.librarysystem.commands.ReturnBook(patronID, bookID);
+                    return new bcu.Group_F6.librarysystem.commands.ReturnBook(id1, id2);
 
                 }
             }
