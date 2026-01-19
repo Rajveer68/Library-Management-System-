@@ -1,0 +1,4 @@
+1::Power::Rajveer::Vikram::Gurseerat::true::
+2::Money::Rajveer::10 Jan 2026::Vikram::false::
+3::Power::Rajveer::10 Dec 2024::Gurseerat::false::
+4::Crypto::Vikram::10 JAn 2025::Rajveer::true::
